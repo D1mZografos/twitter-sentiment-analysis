@@ -62,13 +62,13 @@ This project applies various machine learning classifiers to perform sentiment a
 - Models were trained and evaluated with default settings.
 - Metrics: Accuracy, F1-score, Fit Time
   
-![results/sentiment_analysis_no_tuning](/results/sentiment_analysis_no_tuning.png)
+![sentiment_analysis_no_tuning](/results/sentiment_analysis_no_tuning.png)
 
 ### 🔹 With Hyperparameter Tuning (GridSearchCV)
 - Best parameters were selected using 5-fold cross-validation.
 - Metrics: Accuracy, F1-score, Best Parameters
 
-![results/sentiment_analysis_with_tuning](/results/sentiment_analysis_with_tuning.png)
+![sentiment_analysis_with_tuning](/results/sentiment_analysis_with_tuning.png)
 
 ---
 
