@@ -1,0 +1,14 @@
+sentiment_analysis_with_tuning
+TF-IDF Setting;Model;Accuracy;F1-score;Best Parameters
+min_df=5;Logistic Regression;0.7806;0.7687;{'classifier__C': 1, 'classifier__solver': 'lbfgs'}
+min_df=5;SVM;0.7789;0.7728;{'classifier__C': 1}
+min_df=5;Random Forest;0.7619;0.7509;{'classifier__max_depth': None, 'classifier__n_estimators': 300}
+min_df=5;Neural Network;0.7361;0.7374;{'classifier__activation': 'relu', 'classifier__hidden_layer_sizes': (100,)}
+max_features=2500;Logistic Regression;0.7792;0.7672;{'classifier__C': 1, 'classifier__solver': 'lbfgs'}
+max_features=2500;SVM;0.7771;.771;{'classifier__C': 1}
+max_features=2500;Random Forest;0.7632;0.7491;{'classifier__max_depth': None, 'classifier__n_estimators': 100}
+max_features=2500;Neural Network;0.7322;0.7349;{'classifier__activation': 'relu', 'classifier__hidden_layer_sizes': (100,)}
+max_features=500;Logistic Regression;0.7649;0.7583;{'classifier__C': 10, 'classifier__solver': 'lbfgs'}
+max_features=500;SVM;.768;0.7603;{'classifier__C': 10}
+max_features=500;Random Forest;0.7504;0.7377;{'classifier__max_depth': None, 'classifier__n_estimators': 300}
+max_features=500;Neural Network;0.7638;0.7577;{'classifier__activation': 'tanh', 'classifier__hidden_layer_sizes': (100,)}

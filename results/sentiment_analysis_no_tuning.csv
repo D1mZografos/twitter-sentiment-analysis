@@ -1,0 +1,13 @@
+TF-IDF Setting,Classifier,Accuracy,F1-score,Fit Time (s)
+min_df=5,Logistic Regression,0.7778,0.7661,0.11
+min_df=5,SVM,0.7756,0.7692,0.07
+min_df=5,Random Forest,0.7624,0.7498,22.18
+min_df=5,Feed-forward Neural Network,0.7363,0.7371,17.76
+max_features=2500,Logistic Regression,0.7794,0.7678,0.14
+max_features=2500,SVM,0.7753,0.769,0.07
+max_features=2500,Random Forest,0.763,0.7503,22.82
+max_features=2500,Feed-forward Neural Network,0.7318,0.7328,24.74
+max_features=500,Logistic Regression,0.7613,0.7508,0.11
+max_features=500,SVM,0.7656,0.7571,0.08
+max_features=500,Random Forest,0.7516,0.7395,18.75
+max_features=500,Feed-forward Neural Network,0.7394,0.7362,12.01
