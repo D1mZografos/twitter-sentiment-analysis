@@ -60,13 +60,15 @@ This project applies various machine learning classifiers to perform sentiment a
 
 ### 🔹 Without Hyperparameter Tuning
 - Models were trained and evaluated with default settings.
-- Results saved in [`results/sentiment_analysis_no_tuning.csv`](/results/sentiment_analysis_no_tuning.csv)
 - Metrics: Accuracy, F1-score, Fit Time
+  
+![results/sentiment_analysis_no_tuning](/results/sentiment_analysis_no_tuning.png)
 
 ### 🔹 With Hyperparameter Tuning (GridSearchCV)
 - Best parameters were selected using 5-fold cross-validation.
-- Results saved in [`results/sentiment_analysis_with_tuning.csv`](/results/sentiment_analysis_with_tuning.csv)
 - Metrics: Accuracy, F1-score, Best Parameters
+
+![results/sentiment_analysis_with_tuning](/results/sentiment_analysis_with_tuning.png)
 
 ---
 
@@ -89,6 +91,8 @@ This project applies various machine learning classifiers to perform sentiment a
 | `results/sentiment_analysis_no_tuning.csv`  | Results of models without tuning         |
 | `results/sentiment_analysis_with_tuning.csv`| Tuned model results and best parameters  |
 | `data/preprocessed_airline_sentiment.csv`   | Cleaned and labeled dataset              |
+| `images/sentiment_analysis_no_tuning.png`   | Image of models without tuning           |
+| `images/sentiment_analysis_with_tuning.png` | Image of model results and best parameters  |
 
 ---
 
